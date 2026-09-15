@@ -1,0 +1,41 @@
+"""Módulo de configurações."""
+
+from .settings import (
+    PROJECT_ROOT,
+    DATA_DIR,
+    BRONZE_DIR,
+    SILVER_DIR,
+    GOLD_DIR,
+    MODELS_DIR,
+    REPORTS_DIR,
+    FIGURES_DIR,
+    DADOS_ANTIGOS,
+    DADOS_NOVOS,
+    RANDOM_STATE,
+    TEST_SIZE,
+    TARGET_COLUMN,
+    COLUMN_MAPPING,
+    FEATURE_CONFIG,
+    VIZ_CONFIG,
+    MODEL_CONFIG,
+)
+
+__all__ = [
+    'PROJECT_ROOT',
+    'DATA_DIR',
+    'BRONZE_DIR',
+    'SILVER_DIR',
+    'GOLD_DIR',
+    'MODELS_DIR',
+    'REPORTS_DIR',
+    'FIGURES_DIR',
+    'DADOS_ANTIGOS',
+    'DADOS_NOVOS',
+    'RANDOM_STATE',
+    'TEST_SIZE',
+    'TARGET_COLUMN',
+    'COLUMN_MAPPING',
+    'FEATURE_CONFIG',
+    'VIZ_CONFIG',
+    'MODEL_CONFIG',
+]
